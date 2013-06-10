@@ -1,0 +1,239 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+html, body {
+overflow:hidden;
+}
+body {
+font-family: 'Titillium Web', sans-serif;
+background:#F6F6F6 url(https://dl.dropboxusercontent.com/u/62351819/fbapp/appbg.png) repeat-x 0 0px;
+color:#333;
+height:100%;
+max-height:800px;
+overflow:hidden;
+}
+header {
+font-size:13px;
+}
+a {
+text-decoration:none;
+color:#169CEB;
+}
+#main {
+padding:10px;
+}
+#quotes {
+width:90%;
+max-height:350px;
+text-align:center;
+margin:50px auto 0;
+font-size:36px;
+font-weight:500;
+padding:20px 0 0;
+text-shadow:0px 1px 2px #FFF;
+color:#333;
+}
+#quotes:before
+{
+content:open-quote;
+font-size:100px;
+line-height:0px;
+padding:0;
+margin:0 25px -20px -25px;
+display:block;
+text-align:left;
+text-shadow:2px 1px 3px #000;
+
+}
+#quotes:after
+{
+content:close-quote;
+font-size:100px;
+line-height:0px;
+padding:0;
+margin:0 -25px -20px 25px;
+display:block;
+text-align:right;
+text-shadow:2px 1px 3px #000;
+
+}
+.author {
+float:right;
+width:300px;
+margin:30px 30px 0 0;
+text-align:right;
+font-size:40px;
+font-weight:500;
+color:#cecece;
+text-shadow:0px 1px 1px #000	;
+}
+
+.user {
+float:right;
+text-align:right;
+}
+.pimage {
+float:right;
+padding:0;
+margin:0 10px;
+}
+.pimage img{
+border-right:4px solid #cecece;
+padding:0;
+margin:0;
+
+}
+.pimage img:hover{
+border-right:4px solid #169CEB;
+
+}
+.right {float:right;}
+.left {float:left;}
+
+/*TABS*/
+.shadow {
+background:url(http://theme-fusion.com/avada/wp-content/themes/Avada/images/shadow-top.png) no-repeat center;
+height:42px;
+margin:110px 0 -30px ;
+}
+.shadow2 {
+background:url(http://theme-fusion.com/avada/wp-content/themes/Avada/images/shadow-top.png) no-repeat center;
+height:42px;
+margin:0 0 -30px ;
+
+}
+.note {
+width:85%;
+height:100px;
+  background: #FFFFFF;
+  border-color: #CECECE #CECECE #CECECE #169CEB;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px 1px 1px 3px;
+  font-size: 16px;
+  padding: 10px 30px 20px;
+  margin:auto;
+}
+.note h2 {
+margin:0;
+padding:0;
+}
+.note .right {
+height:100px;
+}
+#tabs {
+margin:0;
+
+}
+#tabs ul{
+float:left;
+min-width:500px;
+position:absolute;
+top:84px; /*CHROME 85px;*/
+margin:0px 0 10px 125px;
+padding:0;
+}
+#tabs li{
+margin-left:8px;
+list-style:none;
+}
+#tabs li{display:inline;}
+#tabs li,#tabs li a{
+float:left;
+border-bottom:none;
+border-radius:9px 9px 0 0;
+}
+#tabs ul li a{
+text-decoration:none;
+padding:4px 12px;
+color:#666;
+font-size:17px;
+}
+
+#tabs ul li.active{
+background:#F0F0F0;
+border:1px solid #cecece;
+border-bottom:none;
+}
+#tabs ul li.active a{
+color:#333333;
+text-shadow:1px 1px 1px #FFF;
+
+
+}
+#tabs div{
+clear:both;
+}
+#tabs div h3{
+margin:10px;
+font-weight:bold;
+}
+#tabs div p{line-height:150%;}
+.thumbs{float:left;border:#000 solid 1px;margin-bottom:20px;margin-right:20px;}
+/* MAILING LIST */
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+ form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+ h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+ input {border:1px solid #999; -webkit-appearance:none;}
+ input[type=checkbox]{-webkit-appearance:checkbox;}
+ input[type=radio]{-webkit-appearance:radio;}
+ input:focus {border-color:#333;}
+ .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+ .button:hover {background-color:#777;}
+ .small-meta {font-size: 11px;}
+ .nowrap {white-space:nowrap;}     
+ .clear {clear:none; display:inline;}
+
+ label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+ input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:280px; min-width:180px;}
+ input.button {display:block; width:200px; margin:0 0 10px 44px; min-width:130px;}
+
+ #mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+ #mce-error-response {display:none;}
+ #mce-success-response {color:#529214; display:none;}
+ label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+
+#mc_embed_signup {
+background:#fff; 
+clear:both; 
+font:14px Helvetica,Arial,sans-serif; 
+margin:20px;
+}
+#mc-embedded-subscribe-form {
+height:130px;
+border:1px solid #cecece;
+width:325px;
+margin:auto;
+background:#f0f0f0;
+border-radius:1em 0;
+}
+/*BUTONS*/
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
